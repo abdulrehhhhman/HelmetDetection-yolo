@@ -1,9 +1,5 @@
-streamlit>=1.30.0
-ultralytics>=8.0.0
-opencv-python-headless>=4.8.0
-numpy>=1.24
-Pillow>=9.4.0
-torch>=2.0.0
-torchvision>=0.15.0
-seaborn
-
+streamlit==1.35.0
+ultralytics==8.3.146
+torch>=2.0
+Pillow
+requests
