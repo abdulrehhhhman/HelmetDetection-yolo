@@ -34,7 +34,7 @@ def set_background():
 set_background()
 
 # Load your YOLOv8 model
-model = YOLO("besttt.pt")  # make sure this file exists
+model = YOLO("besttt.pt")
 
 # App title
 st.markdown("<h1 style='color:black; text-align:center;'>Helmet Detection</h1>", unsafe_allow_html=True)
