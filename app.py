@@ -37,7 +37,7 @@ set_background()
 model = YOLO("besttt.pt")
 
 # App title
-st.markdown("<h1 style='color:black; text-align:center;'>Helmet Detection</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='color:white; text-align:center;'>Helmet Detection</h1>", unsafe_allow_html=True)
 st.write("Upload an image to detect helmets:")
 
 uploaded_file = st.file_uploader("Choose an image", type=["jpg", "jpeg", "png"])
